@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function Search() {
+export default function Search(props) {
+  console.log(props.text)
   return (
     <div>
-      search
+      
     </div>
   );
 }
